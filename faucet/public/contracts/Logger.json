@@ -24,20 +24,20 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: UNLICENSED\npragma solidity >= 0.4.22 <0.9.0;\nabstract contract Logger {\n    function emitLog() public virtual pure returns(bytes32);\n}",
-  "sourcePath": "/Users/danutandres/Desktop/Programmazione/UdemySolidityReactJS/faucet/contracts/Logger.sol",
+  "sourcePath": "/Users/danutandres/Desktop/Programmazione/UdemySolidityReactJS/UdemySolidityReactJS/faucet/contracts/Logger.sol",
   "ast": {
     "absolutePath": "project:/contracts/Logger.sol",
     "exportedSymbols": {
       "Logger": [
-        203
+        204
       ]
     },
-    "id": 204,
+    "id": 205,
     "license": "UNLICENSED",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 197,
+        "id": 198,
         "literals": [
           "solidity",
           ">=",
@@ -57,9 +57,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": false,
-        "id": 203,
+        "id": 204,
         "linearizedBaseContracts": [
-          203
+          204
         ],
         "name": "Logger",
         "nameLocation": "91:6:2",
@@ -67,7 +67,7 @@
         "nodes": [
           {
             "functionSelector": "f42c13bf",
-            "id": 202,
+            "id": 203,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -75,23 +75,23 @@
             "nameLocation": "113:7:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 198,
+              "id": 199,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "120:2:2"
             },
             "returnParameters": {
-              "id": 201,
+              "id": 202,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 200,
+                  "id": 201,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 202,
+                  "scope": 203,
                   "src": "151:7:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -100,7 +100,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 199,
+                    "id": 200,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "151:7:2",
@@ -114,14 +114,14 @@
               ],
               "src": "150:9:2"
             },
-            "scope": 203,
+            "scope": 204,
             "src": "104:56:2",
             "stateMutability": "pure",
             "virtual": true,
             "visibility": "public"
           }
         ],
-        "scope": 204,
+        "scope": 205,
         "src": "73:89:2",
         "usedErrors": []
       }
@@ -132,15 +132,15 @@
     "absolutePath": "project:/contracts/Logger.sol",
     "exportedSymbols": {
       "Logger": [
-        203
+        204
       ]
     },
-    "id": 204,
+    "id": 205,
     "license": "UNLICENSED",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 197,
+        "id": 198,
         "literals": [
           "solidity",
           ">=",
@@ -160,9 +160,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": false,
-        "id": 203,
+        "id": 204,
         "linearizedBaseContracts": [
-          203
+          204
         ],
         "name": "Logger",
         "nameLocation": "91:6:2",
@@ -170,7 +170,7 @@
         "nodes": [
           {
             "functionSelector": "f42c13bf",
-            "id": 202,
+            "id": 203,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -178,23 +178,23 @@
             "nameLocation": "113:7:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 198,
+              "id": 199,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "120:2:2"
             },
             "returnParameters": {
-              "id": 201,
+              "id": 202,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 200,
+                  "id": 201,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 202,
+                  "scope": 203,
                   "src": "151:7:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -203,7 +203,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 199,
+                    "id": 200,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "151:7:2",
@@ -217,14 +217,14 @@
               ],
               "src": "150:9:2"
             },
-            "scope": 203,
+            "scope": 204,
             "src": "104:56:2",
             "stateMutability": "pure",
             "virtual": true,
             "visibility": "public"
           }
         ],
-        "scope": 204,
+        "scope": 205,
         "src": "73:89:2",
         "usedErrors": []
       }
@@ -237,7 +237,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-12-14T19:19:26.302Z",
+  "updatedAt": "2021-12-18T11:31:17.698Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
